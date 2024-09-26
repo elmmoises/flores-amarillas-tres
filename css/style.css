@@ -71,7 +71,45 @@ body{
 
 .description{
     font-size: 1.5rem;
+    margin-bottom: 0.5px;
+}
+
+.description3{
+    font-size: 0.8rem;
+    margin-bottom: 0.5px;
+    opacity: 20%;
+}
+
+.description2{
+    opacity: 40%;
+    font-size: 0.9rem;
     margin-bottom: 20px;
+    text-decoration: none;
+    padding: 12px 48px;
+    color: #fff;
+    background: linear-gradient(
+        to right,
+        #4d4d4d,
+        #011642,
+        #013a50,
+        #00463a,
+        #4d4d4d	
+    );
+    background-position: 0%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: move 3s linear alternate infinite;
+}
+@keyframes move{
+    0%{
+        background-position: 0;
+    }
+    60%{
+        background-position: 180px;
+    }
+    100%{
+        background-position: 440px;
+    }
 }
 
 .button a{
@@ -94,4 +132,11 @@ body{
     .button a{
         font-size: 1rem;
     }
+
+    .description2{
+        font-size: 1rem;
+    }
 }
+canvas {
+    display: block;
+  }
