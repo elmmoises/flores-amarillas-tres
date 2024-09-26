@@ -87,6 +87,12 @@ body{
     margin-bottom: 0.5px;
     opacity: 20%;
 }
+.description4{
+    font-size: 0.8rem;
+    margin-bottom: 0.5px;
+    opacity: 20%;
+    text-align: center;
+}
 
 .description2{
     opacity: 40%;
